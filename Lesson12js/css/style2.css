@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 150px auto;
+    height: 50px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+
+#btn-add {
+    width: 1200px;
+    height: 50px;
+    font-size: 30px;
+    margin: 0 auto;
+}

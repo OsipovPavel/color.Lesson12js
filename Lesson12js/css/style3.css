@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 50px auto;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.palette {
+    width: 225px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+}
+
+.color-box[data-color="red"] {
+    background-color: red;
+}
+.color-box[data-color="orange"] {
+    background-color: orange;
+}
+.color-box[data-color="green"] {
+    background-color: green;
+}
+.color-box[data-color="greenyellow"] {
+    background-color: greenyellow;
+}
+.color-box[data-color="blueviolet"] {
+    background-color: blueviolet;
+}
+.color-box[data-color="skyblue"] {
+    background-color: skyblue;
+}
+.color-box[data-color="wheat"] {
+    background-color: wheat;
+}
+.color-box[data-color="hotpink"] {
+    background-color: hotpink;
+}
+.color-box[data-color="darkturquoise"] {
+    background-color: darkturquoise;
+}
+.color-box[data-color="gold"] {
+    background-color: gold;
+}
+.color-box[data-color="deepskyblue"] {
+    background-color: deepskyblue;
+}
+.color-box[data-color="slateblue"] {
+    background-color: slateblue;
+}
+.color-box[data-color="khaki"] {
+    background-color: khaki;
+}
+.color-box[data-color="teal"] {
+    background-color: teal;
+}
+.color-box[data-color="aqua"] {
+    background-color: aqua;
+}
+.color-box[data-color="blue"] {
+    background-color: blue;
+}
+.color-box[data-color="crimson"] {
+    background-color: crimson;
+}
+.color-box[data-color="black"] {
+    background-color: black;
+}
